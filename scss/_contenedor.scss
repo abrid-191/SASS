@@ -1,0 +1,35 @@
+.contenedor{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+    .sidebar{
+        padding: 15px;
+        background-color: white;
+        grid-column-start: 3;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .textos{
+        padding: 15px;
+        background-color: rgb(73, 73, 184);
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
